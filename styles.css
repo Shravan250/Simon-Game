@@ -7,7 +7,6 @@ h1{
     color: rgb(236, 83, 22)
 }
 
-
 .heading{
     width : 100%;
     text-align: center;
@@ -55,7 +54,9 @@ h1{
     margin: 0 30% 0 30%;
 }
 
-
+.pressed{
+    opacity: 0.5;
+}
 
 
 
