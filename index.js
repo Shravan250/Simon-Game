@@ -3,10 +3,13 @@ var score = 0;
 var GamePattern = [];
 var userClicked = [];
 
-var GameOver = false;
+var started = false;
 
 $(document).on("keypress", function () {
+  if(!started){
   randomKeyGenerator();
+  started = true;
+  }
 });
 
 
@@ -31,7 +34,9 @@ function isSameKeyPressed(level) {
             },500);
         }
     }else{
-        $("h1").html("Game Over").addClass("Game-Over");
+        var statement = "<h6>Press Any Key to Restart</h6>"
+        $("h1").html("Game Over" + statement).addClass("Game-Over");
+        restart();
     }
 }
 
@@ -47,4 +52,10 @@ function randomKeyGenerator() {
 function RandomNumberGenerator() {
   var number = Math.floor(Math.random() * 4);
   return number;
+}
+
+function restart(){
+  GamePattern = [];
+  level = 0;
+  started = false;
 }

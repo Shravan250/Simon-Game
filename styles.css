@@ -1,73 +1,86 @@
-body{
+body {
     background-color: aquamarine;
+    font-family: 'Gamja Flower', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 70px;
-    color: rgb(236, 83, 22)
+    color: rgb(236, 83, 22);
 }
 
-.heading{
-    width : 100%;
+h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.heading {
+    width: 100%;
     text-align: center;
 }
 
-.btn{
-    border: solid 5px;
+.top{
+    padding : 0px;
+    margin-bottom : 0px;
+}
+
+
+.btn {
+    border: solid 7px;
     border-color: black;
     background: red;
     width: 10rem;
-    height: 10rem;   
+    height: 10rem;
     border-radius: 30%;
-    margin:20px;
+    margin: 20px;
     font-size: 60px;
     color: aliceblue;
 }
 
-.w{
+.w {
     background-color: green;
 }
 
-.a{
+.a {
     background-color: red;
 }
 
-.s{
+.s {
     background-color: yellow;
 }
 
-.d{
+.d {
     background-color: blue;
 }
 
 
-.container{
+.container {
     margin-top: 40px;
     text-align: center;
 }
 
-.firstrow{
+.firstrow {
     margin: 0 30% 0 30%;
 }
 
-.secondrow{
+.secondrow {
     margin: 0 30% 0 30%;
 }
 
-.pressed{
+.pressed {
     opacity: 0.5;
 }
 
-.Game-Over{
+.Game-Over {
     color: red;
+    font-size: 100px;
 }
 
 
-.cpy-underline{
+.cpy-underline {
     text-decoration: underline;
 }
 
-.copyright{
-    margin-top : 100px;
+.copyright {
+    margin-top: 100px;
     padding: 0 45% 0 43%;
 }
